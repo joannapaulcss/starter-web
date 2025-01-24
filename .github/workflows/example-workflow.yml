@@ -37,6 +37,6 @@ jobs:
             Code scanning has completed for repository: ${{ github.repository }}
             Commit: ${{ github.sha }}
             View detailed results: ${{ github.server_url }}/${{ github.repository }}/security/code-scanning
-          to: "recipient@example.com"
-          from: "sender@example.com"
+          to: "joannamyla@gmail.com"
+          from: "joannamyla@gmail.com"
 
