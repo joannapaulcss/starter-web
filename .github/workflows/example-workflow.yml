@@ -28,7 +28,7 @@ jobs:
       - name: Send Email Notification
         uses: dawidd6/action-send-mail@v3
         with:
-          server_address: smtp.example.com # Replace with your SMTP server (e.g., smtp.gmail.com)
+          server_address: smtp.gmail.com # Replace with your SMTP server (e.g., smtp.gmail.com)
           server_port: 587                # SMTP port (e.g., 587 for TLS)
           username: ${{ secrets.EMAIL_USERNAME }} # Add your email username to repository secrets
           password: ${{ secrets.EMAIL_PASSWORD }} # Add your email password or app-specific password to secrets
